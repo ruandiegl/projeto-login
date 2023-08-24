@@ -13,10 +13,11 @@ TV: acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width:992px){
     body {
-        background-image: linear-gradient(to top, #E3C16F , #808080 ) ;
+        background-image: linear-gradient(to top, #61E294 , #808080 ) ;
     }
     section#login {
         width: 90vw;
+        height: 300px;
 
     } 
     section#login > div#imagem {
@@ -28,14 +29,25 @@ TV: acima de 1200px
     section#login > div#formulario {
         float: right;
         width: 70%;
+    }
+    form > div.campo > input {
+        border: 2px solid #C9F2C7;
+        width: calc(100% - 44.39px);
+        height: 95%;
+        border-radius: 8px;
+        text-indent: 5px;
+        background-color: white;
+        font-size: 1em;
+        transform: translateY(-11.8px);
     } 
 }
 @media screen and (min-width: 992px){
     body {
-        background-image: linear-gradient(to top , #E3C16F, #808080);
+        background-image: linear-gradient(to top , #61E294, #808080);
     }
     section#login {
         width: 910px;
+        height: 360px;
     }
     section#login > div#imagem {
         float: right;
@@ -53,5 +65,15 @@ TV: acima de 1200px
     div#formulario > p {
         font-size: 1.2em;
     }
+    form > div.campo > input {
+        border: 2px solid #C9F2C7;
+        width: calc(100% - 44.39px);
+        height: 95%;
+        border-radius: 8px;
+        text-indent: 5px;
+        background-color: white;
+        font-size: 1em;
+        transform: translateY(-11.7px);
+    } 
     
 }
